@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>JS Mini Project</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Body begins -->
     <div class="container">
-      <div class="card">
-        <img
-          src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGluZyUyMHBvbmclMjBiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-          alt="Image of a Ping Pong bat"
-        />
-        <h1>Ping Pong Score Keeper</h1>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGluZyUyMHBvbmclMjBiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Image of a Ping Pong bat" />
+            <h1>Ping Pong Score Keeper</h1>
 
-        <div class="score">
-          <h1>
-            <p id="p1"></p>
-            to
-            <p id="p2"></p>
-          </h1>
-        </div>
+            <div class="score">
+                <h1>
+                    <p id="p1"></p>
+                    to
+                    <p id="p2"></p>
+                </h1>
+            </div>
 
-        <div class="score-limit">
-          <label for="game">Play to: </label>
-          <select name="game" id="game" onchange="changeScoreLimit()">
+            <div class="score-limit">
+                <label for="game">Play to: </label>
+                <select name="game" id="game" onchange="changeScoreLimit()">
             <option value="7">7</option>
             <option value="9">9</option>
             <option value="11">11</option>
             <option value="21">21</option>
           </select>
-        </div>
+            </div>
 
-        <div class="btns">
-          <button id="p1-btn">P1 +1</button>
-          <button id="p2-btn">P2 +1</button>
-          <button id="reset">Reset</button>
+            <div class="btns">
+                <button id="p1-btn">P1 +1</button>
+                <button id="p2-btn">P2 +1</button>
+                <button id="reset">Reset</button>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Body ends -->
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
 
 <!-- 
